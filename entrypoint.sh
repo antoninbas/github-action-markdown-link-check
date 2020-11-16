@@ -8,7 +8,8 @@ YELLOW='\033[0;33m'
 BLUE='\033[0;34m'
 RED='\033[0;31m'
 
-npm i -g markdown-link-check@3.8.3
+# npm i -g markdown-link-check@3.8.3
+npm i -g git://github.com/tcort/markdown-link-check.git#04d34dd29fd6a2cb2edd4c47f70e8b6c65afad3f
 
 declare -a FIND_CALL
 declare -a COMMAND_DIRS COMMAND_FILES
